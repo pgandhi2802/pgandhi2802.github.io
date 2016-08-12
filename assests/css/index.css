@@ -1,0 +1,73 @@
+body{
+  background:snow-white;
+background-image: url("../../assests/img/bg.svg");
+background-attachment: fixed;
+}
+.svg{
+width:4rem;
+}
+@-webkit-keyframes inputHighlighter {
+from { background:#5264AE; }
+to  { width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+from { background:#5264AE; }
+to  { width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+from { background:#5264AE; }
+to  { width:0; background:transparent; }
+}
+#masthead-brand{font-family: 'Kelly Slab', cursive;width:4rem;
+}
+html,body{
+height: 100%;
+}
+body{
+text-align: center;
+}
+.site-wrapper {
+display: table;
+width: 100%;
+height: 100%;
+min-height: 100%;
+}
+.site-wrapper-inner {
+display: table-cell;
+vertical-align: top;
+}
+.mastfoot{
+padding:1rem;
+}
+#home .cover{
+  padding:2rem;
+}
+#home .cover-heading{
+  color:#EA4C89;
+}
+#home .cover-line{
+  color:#32A4A1;
+}
+#home .cover-line2 span{
+  color:#16364F;
+}
+#home .cover-line2 a{
+  color:#1BC5E9;
+}
+@media (min-width: 48em) {
+/*#social-icons{
+float: right;
+}*/
+}
+@media (min-width: 40em) {
+.mastfoot {
+position: absolute;
+bottom: 0;
+}
+.site-wrapper-inner {
+vertical-align: middle;
+}
+.mastfoot,.cover-container {
+width: 100%;
+}
+}
